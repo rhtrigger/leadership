@@ -1094,7 +1094,10 @@ float: left;
 margin: -5px 0 0 15px;
 }
 
-.error {
+// Switch error and success classes for this site
+
+
+.success {
 display: none;
 padding: 10px;
 color: #D8000C;
@@ -1103,7 +1106,7 @@ font-size: 13px;
 background-color: #FFBABA;
 }
 
-.success {
+.error {
 background-color: #6cb670;
 border-radius: 4px;
 color: #fff;
