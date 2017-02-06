@@ -150,7 +150,7 @@ jQuery(function ($) { "use strict";
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#6CB670",
+			barColor: "#e1362f",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,
@@ -484,10 +484,10 @@ $(function() {
 "use strict";
 
 function parallaxInit() {
-	$('#counter').parallax("50%", 0.3);
-	$('#team-skills').parallax("50%", 0.3);
-	$('#twitter-feed').parallax("50%", 0.3);
-	$('#testimonial').parallax("50%", 0.3);
+	$('#counter').parallax("10%", 0.3);
+	$('#team-skills').parallax("10%", 0.3);
+	$('#twitter-feed').parallax("10%", 0.3);
+	$('#testimonial').parallax("10%", 0.3);
 }
 
 $(window).bind("load", function () {
