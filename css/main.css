@@ -1094,7 +1094,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: -5px 0 0 15px;
 }
 
-.error {
+.success {
     display: none;
     padding: 10px;
     color: #D8000C;
@@ -1102,8 +1102,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 13px;
     background-color: #FFBABA;
 }
-
-.success {
+.error{
     background-color: #e1362f;
     border-radius: 4px;
     color: #fff;
