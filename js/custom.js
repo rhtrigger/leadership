@@ -113,7 +113,7 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 	/*	Timer count
 	/* ========================================================================= */
-
+	/*
 	(function() {
 		var count = {
 		  initialized : false,
@@ -142,7 +142,7 @@ jQuery(function ($) { "use strict";
 		count.initialize();
 	})();
 
-
+	*/
 	/* ========================================================================= */
 	/*	Skills Chart
 	/* ========================================================================= */
@@ -153,7 +153,7 @@ jQuery(function ($) { "use strict";
 			barColor: "#e1362f",
 			size: "150",
 			lineWidth: 15,
-			animate: 2e3,
+			//animate: 2e3,
 			onStep: function (e, t, n) {
 				$(this.el).find(".percent").text(Math.round(n))
 			}
